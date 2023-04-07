@@ -1,0 +1,67 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.chat_head {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    max-width: 500px;
+}
+.input {
+    border: 2px solid CornflowerBlue;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+}
+.btn_send {
+    padding: 5px;
+    border: none;
+    background-color: CornflowerBlue;;
+    color: indigo;
+}
+.btn_loc {
+    padding: 5px;
+    border: none;
+    background-color: CornflowerBlue;;
+    color: indigo;
+}
+.chat_body {
+    margin: 0 auto ;
+    margin-top: 50px;
+    border: 2px solid CornflowerBlue;
+    height: 700px;
+    max-width: 500px;
+    padding: 15px;
+}
+.mail_server {
+    border: 2px solid CornflowerBlue;
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+.mail_user {
+    border: 2px solid CornflowerBlue;
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    word-wrap: break-word;
+}
